@@ -14,3 +14,7 @@ function Scorecard() {
     []
   ];
 };
+
+Scorecard.prototype.pinsKnockedDown = function () {
+  prompt('Enter the number of pins knocked down: ')
+};
