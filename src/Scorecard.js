@@ -1,20 +1,15 @@
 'use strict';
 
 function Scorecard() {
-  this.frames = [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-  ];
+    this.frames = [];
+}
+
+Scorecard.prototype.addFrame = function () {
+    this.frames.push([]);
 };
 
-Scorecard.prototype.pinsKnockedDown = function () {
-  prompt('Enter the number of pins knocked down: ')
-};
+// Scorecard.prototype.writeFrames = function () {
+//   for (var i = 0; i < this.frames.length; i++) {
+//     this.frames[i] = this.pinsKnockedDown();
+//   }
+// };
