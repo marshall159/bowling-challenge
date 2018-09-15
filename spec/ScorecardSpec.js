@@ -12,7 +12,7 @@ describe('Scorecard', function() {
     //   expect(card.frames.length).toEqual(10);
     // });
 
-    it('allows input of number of pins knocked down', function() {
+    it('adds a frame', function() {
         card.addFrame()
         expect(card.frames).toContain([]);
     });
