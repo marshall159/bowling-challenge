@@ -8,4 +8,5 @@ describe('Frame', function() {
         first.pinsKnockedDown(2);
         expect(first.frame).toContain(8,2);
     });
+
 });
